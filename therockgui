@@ -1,0 +1,283 @@
+-- Made By Nutella Utilities And Also this is a loadstring.
+
+local TheRockGUIFE = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local UIGradient = Instance.new("UIGradient")
+local ImageLabel = Instance.new("ImageLabel")
+local UICorner_2 = Instance.new("UICorner")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local UICorner_3 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local PendulumHub = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local UIGradient_2 = Instance.new("UIGradient")
+local Grammar = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local Chat = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local Long = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local Anim = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+
+TheRockGUIFE.Name = "The Rock GUI FE"
+TheRockGUIFE.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+TheRockGUIFE.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = TheRockGUIFE
+Frame.BackgroundColor3 = Color3.fromRGB(71, 71, 71)
+Frame.Position = UDim2.new(0.165101707, 0, 0.260196894, 0)
+Frame.Size = UDim2.new(0, 615, 0, 340)
+
+UICorner.Parent = Frame
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(80, 80, 80)), ColorSequenceKeypoint.new(0.13, Color3.fromRGB(125, 125, 125)), ColorSequenceKeypoint.new(0.29, Color3.fromRGB(173, 173, 173)), ColorSequenceKeypoint.new(0.44, Color3.fromRGB(230, 230, 230)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient.Parent = Frame
+
+ImageLabel.Parent = Frame
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.Position = UDim2.new(0.0178861786, 0, 0.0235294122, 0)
+ImageLabel.Size = UDim2.new(0, 49, 0, 43)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=9094171774"
+
+UICorner_2.CornerRadius = UDim.new(0, 9)
+UICorner_2.Parent = ImageLabel
+
+ImageLabel_2.Parent = Frame
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_2.BackgroundTransparency = 1.000
+ImageLabel_2.Position = UDim2.new(0.89268297, 0, 0, 0)
+ImageLabel_2.Size = UDim2.new(0, 66, 0, 43)
+ImageLabel_2.Image = "http://www.roblox.com/asset/?id=9094171774"
+ImageLabel_2.ImageTransparency = 0.900
+
+UICorner_3.Parent = ImageLabel_2
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.0780487731, 0, 0.0117647061, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 50)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "The Rock GUI Fe"
+TextLabel.TextColor3 = Color3.fromRGB(197, 188, 178)
+TextLabel.TextSize = 28.000
+
+PendulumHub.Name = "Pendulum Hub"
+PendulumHub.Parent = Frame
+PendulumHub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PendulumHub.BackgroundTransparency = 0.980
+PendulumHub.Position = UDim2.new(0.0308943093, 0, 0.22647059, 0)
+PendulumHub.Size = UDim2.new(0, 208, 0, 58)
+PendulumHub.Font = Enum.Font.Code
+PendulumHub.Text = "Pendulum Hub ( R6 Hub )"
+PendulumHub.TextColor3 = Color3.fromRGB(126, 126, 126)
+PendulumHub.TextSize = 17.000
+PendulumHub.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Pendulum%20Hub%20V4.lua"))()
+end)
+
+
+UICorner_4.Parent = PendulumHub
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.731454968, 0, 0.8988235, 0)
+TextLabel_2.Size = UDim2.new(0, 200, 0, 50)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "made by Nutella Utilities"
+TextLabel_2.TextColor3 = Color3.fromRGB(241, 241, 241)
+TextLabel_2.TextSize = 14.000
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 3, 7)), ColorSequenceKeypoint.new(0.12, Color3.fromRGB(255, 30, 207)), ColorSequenceKeypoint.new(0.26, Color3.fromRGB(167, 67, 255)), ColorSequenceKeypoint.new(0.40, Color3.fromRGB(62, 49, 255)), ColorSequenceKeypoint.new(0.53, Color3.fromRGB(85, 219, 255)), ColorSequenceKeypoint.new(0.67, Color3.fromRGB(255, 11, 15)), ColorSequenceKeypoint.new(0.78, Color3.fromRGB(195, 44, 255)), ColorSequenceKeypoint.new(0.91, Color3.fromRGB(73, 97, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 0, 4))}
+UIGradient_2.Parent = TextLabel_2
+
+Grammar.Name = "Grammar"
+Grammar.Parent = Frame
+Grammar.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Grammar.BackgroundTransparency = 0.980
+Grammar.Position = UDim2.new(0.0308943093, 0, 0.414705873, 0)
+Grammar.Size = UDim2.new(0, 208, 0, 58)
+Grammar.Font = Enum.Font.Code
+Grammar.Text = "Grammar Checker"
+Grammar.TextColor3 = Color3.fromRGB(126, 126, 126)
+Grammar.TextSize = 17.000
+Grammar.MouseButton1Down:connect(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/eosuwu/boblox/main/robloxgrammarly.lua"))()
+end)
+
+UICorner_5.Parent = Grammar
+
+Chat.Name = "Chat"
+Chat.Parent = Frame
+Chat.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Chat.BackgroundTransparency = 0.980
+Chat.Position = UDim2.new(0.0308943093, 0, 0.608823538, 0)
+Chat.Size = UDim2.new(0, 208, 0, 58)
+Chat.Font = Enum.Font.Code
+Chat.Text = "Chat Destroyer"
+Chat.TextColor3 = Color3.fromRGB(126, 126, 126)
+Chat.TextSize = 17.000
+Chat.MouseButton1Down:connect(function()
+	while true do
+		wait(1.7)
+		local args = {
+			[1] = " ",
+			[2] = "All"
+		}
+		game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+	end
+end)
+
+
+UICorner_6.Parent = Chat
+
+Long.Name = "Long"
+Long.Parent = Frame
+Long.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Long.BackgroundTransparency = 0.980
+Long.Position = UDim2.new(0.0308943093, 0, 0.79705888, 0)
+Long.Size = UDim2.new(0, 208, 0, 58)
+Long.Font = Enum.Font.Code
+Long.Text = "Long Man ( R15 )"
+Long.TextColor3 = Color3.fromRGB(126, 126, 126)
+Long.TextSize = 17.000
+Long.MouseButton1Down:connect(function()
+	local LocalPlayer = game:GetService("Players").LocalPlayer
+	local Character = LocalPlayer.Character
+	local Humanoid = Character:FindFirstChildOfClass("Humanoid")
+
+	function rm()
+		for i,v in pairs(Character:GetDescendants()) do
+			if v:IsA("BasePart") then
+				if v.Name == "Handle" or v.Name == "Head" then
+					if Character.Head:FindFirstChild("OriginalSize") then
+						Character.Head.OriginalSize:Destroy()
+					end
+				else
+					for i,cav in pairs(v:GetDescendants()) do
+						if cav:IsA("Attachment") then
+							if cav:FindFirstChild("OriginalPosition") then
+								cav.OriginalPosition:Destroy()  
+							end
+						end
+					end
+					v:FindFirstChild("OriginalSize"):Destroy()
+					if v:FindFirstChild("AvatarPartScaleType") then
+						v:FindFirstChild("AvatarPartScaleType"):Destroy()
+					end
+				end
+			end
+		end
+	end
+
+	rm()
+	wait(0.5)
+	Humanoid:FindFirstChild("BodyProportionScale"):Destroy()
+	wait(1)
+
+	rm()
+	wait(0.5)
+	Humanoid:FindFirstChild("BodyHeightScale"):Destroy()
+	wait(1)
+
+	rm()
+	wait(0.5)
+	Humanoid:FindFirstChild("BodyWidthScale"):Destroy()
+	wait(1)
+
+	rm()
+	wait(0.5)
+	Humanoid:FindFirstChild("BodyDepthScale"):Destroy()
+	wait(1)
+
+	rm()
+	wait(0.5)
+	Humanoid:FindFirstChild("HeadScale"):Destroy()
+	wait(1)
+end)
+
+
+
+UICorner_7.Parent = Long
+
+Anim.Name = "Anim"
+Anim.Parent = Frame
+Anim.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Anim.BackgroundTransparency = 0.980
+Anim.Position = UDim2.new(0.391869932, 0, 0.226470649, 0)
+Anim.Size = UDim2.new(0, 208, 0, 58)
+Anim.Font = Enum.Font.Code
+Anim.Text = "Animation Hub ( R15 )"
+Anim.TextColor3 = Color3.fromRGB(126, 126, 126)
+Anim.TextSize = 17.000
+Anim.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://gitlab.com/Tsuniox/lua-stuff/-/raw/master/R15GUI.lua"))()
+end)
+
+
+UICorner_8.Parent = Anim
+
+-- Scripts:
+
+local function VQULJNE_fake_script() -- Frame.Draggable 
+	local script = Instance.new('LocalScript', Frame)
+
+	local UIS = game:GetService('UserInputService')
+	local frame = script.Parent
+	local dragToggle = nil
+	local dragSpeed = 0.25
+	local dragStart = nil
+	local startPos = nil
+	
+	local function updateInput(input)
+		local delta = input.Position - dragStart
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+			dragToggle = true
+			dragStart = input.Position
+			startPos = frame.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragToggle = false
+				end
+			end)
+		end
+	end)
+	
+	UIS.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			if dragToggle then
+				updateInput(input)
+			end
+		end
+	end)
+end
+coroutine.wrap(VQULJNE_fake_script)()
+local function CHCS_fake_script() -- TextLabel_2.Script 
+	local script = Instance.new('Script', TextLabel_2)
+
+	local thing = script.Parent
+	local uiGradient = thing:WaitForChild("UIGradient")
+	local tweenService = game:GetService("TweenService")
+	
+	while true do
+		local tween = tweenService:Create(uiGradient, TweenInfo.new(2, Enum.EasingStyle.Linear), {Offset = Vector2.new(-1, 0)})
+		tween:Play()
+		wait(2)
+		uiGradient.Offset = Vector2.new(1, 0)
+		local tween2 = tweenService:Create(uiGradient, TweenInfo.new(2, Enum.EasingStyle.Linear), {Offset = Vector2.new(0, 0)})
+		tween2:Play()
+		wait(2)
+	end
+end
+coroutine.wrap(CHCS_fake_script)()
